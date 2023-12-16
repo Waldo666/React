@@ -1,0 +1,78 @@
+.CardItem {
+  border: 5px solid #003db8;
+  border-radius: 18px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #111e37;
+  width: 300px;
+  height: 450px; 
+  transition: transform 2s, box-shadow 2s;
+  transform-origin: center center;
+  transform: scale(1);
+  color: #fff;
+  font-family: 'Audiowide', sans-serif;
+}
+
+.CardItem:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 56px rgba(255, 255, 255, 0.2);
+}
+
+
+.Header {
+    margin-bottom: 8px;
+}
+
+.ItemHeader {
+    font-size: 1.5rem;
+    margin: 0; 
+}
+
+.ItemImg {
+  width: 100%;  
+  max-width: 300px; /* Establece un tamaño máximo */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.Info {
+    margin: 8px 0;
+}
+
+.ItemFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.Option {
+    background-color: #050b15;
+    color: #fff;
+    padding: 8px 16px;
+    border: solid 5px #003db8;
+    border-radius: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    transition: transform 2s, box-shadow 2s;
+  }
+  .Option:hover{
+    transform: scale(1.1);
+  box-shadow: 0 8px 56px rgba(255, 255, 255, 0.2);
+}
+  
+  .OptionDisabled{
+    width: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .CardItem {
+      width: 100%;
+      margin: 16px 0; 
+    }
+    
+  }

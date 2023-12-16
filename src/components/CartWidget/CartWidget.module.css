@@ -1,0 +1,30 @@
+.img {
+    width: 40px;
+  }
+
+  .cartWidgetVisible {
+    display: block;
+    margin: 0px 30px 30px 30px;
+    text-decoration: none;
+    color: #21449d;
+    font-size: 20px;
+    gap: 15px;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Audiowide', sans-serif;
+  }
+  
+  .cartWidgetHidden {
+    display: none;
+    margin: 0px 30px 30px 30px;
+  }
+ 
+  main{
+    height: 100%;
+  }
+
+  @media (max-width: 394px) {
+    .cartWidget {
+      margin: 0px;
+    }
+  }

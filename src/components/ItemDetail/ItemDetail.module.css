@@ -1,0 +1,77 @@
+
+.CardItem {
+    border: 5px solid #4d3b84;
+    border-radius: 18px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #231c65;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Audiowide', sans-serif;
+}
+
+.Header {
+    margin-bottom: 8px;
+}
+ 
+.ItemHeader { 
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.ItemImg {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.Info {
+    margin: 8px 0;
+}
+
+.ItemFooter {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    
+}
+
+.option {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.divcard {
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    background-color: #8822b4;
+    color: #fff;
+    padding: 8px 16px;
+    border:solid 5px rgb(48, 12, 78);
+    border-radius: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Audiowide', sans-serif;
+}
+
+
+@media (max-width: 767px) {
+    .CardItem {
+        width: 80%;
+    }
+}
+
+@media (max-width: 488px) {
+    .ItemFooter{
+        flex-direction: column;
+    }
+}

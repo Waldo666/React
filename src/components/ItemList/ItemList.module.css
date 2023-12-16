@@ -1,0 +1,23 @@
+.ListaGrupo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem; 
+  }
+  
+  .CardItem {
+    width: calc(33.33% - 10px); 
+    margin-bottom: 20px; 
+  }
+  
+
+
+  @media (max-width: 767px) {
+    .ListaGrupo {
+      flex-direction: column;
+    }
+    .CardItem { 
+      width: 100%;
+    }
+  }

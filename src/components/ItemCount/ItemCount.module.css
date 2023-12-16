@@ -1,0 +1,30 @@
+.control {
+    display: flex;
+    gap: 1.25rem;
+    margin: 10px;
+    color: #fff;
+
+}
+.contador {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+   
+}
+.boton {
+    background-color: #320337;
+    color: #fff;
+    padding: 8px 16px;
+    border: solid 4px blueviolet;
+    border-radius: 34px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Audiowide', sans-serif;
+} 
+.numeros {
+    color: black;
+    font-family: 'Audiowide', sans-serif;
+}
+ 
+ 

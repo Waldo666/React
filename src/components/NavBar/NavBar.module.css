@@ -1,0 +1,81 @@
+.NavBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.boton {
+  display: flex;
+  list-style: none;
+  align-items: center
+} 
+
+.li {
+  margin-right: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.subMenu {
+  display: none;
+  position: absolute;
+  background-color: #0c0935;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px  rgb(100, 100, 100);
+  z-index: 1;
+  border-radius: 15px;
+  font-family: 'Audiowide', sans-serif;
+  transition:box-shadow 1s ease, color 0.5s ease;
+}
+
+.subMenu:hover{
+  box-shadow: 0px 0px 30px 20px  rgb(255, 255, 255);
+  color: #ffffff;
+}
+
+.subMenuButton {
+  background-color: #412296;
+  color: #c5bfff;
+  padding: 8px 16px;
+  border: 4px solid rgb(105, 105, 170); /* Corregido: añadido "solid" para definir el tipo de borde */
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Audiowide', sans-serif;
+  transition:box-shadow 1s ease, color 0.5s ease;
+}
+.subMenuButton:hover{
+box-shadow: 0px 0px 30px 20px  rgb(255, 255, 255);
+color: #ffffff;
+}
+
+
+.open {
+  display: block;
+}
+
+.carrito {
+  position: relative;
+}
+.ActiveOption {
+  text-decoration: none;
+  color: white;
+}
+
+.ActiveOptions {
+  background-color: #412296;
+  color: #c5bfff;
+  padding: 8px 16px;
+  border: 4px solid rgb(105, 105, 170); /* Corregido: añadido "solid" para definir el tipo de borde */
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Audiowide', sans-serif;
+  transition:box-shadow 1s ease, color 0.5s ease;
+}
+
+.ActiveOptions:hover {
+  box-shadow: 0px 0px 30px 20px  rgb(255, 255, 255);
+  color: #ffffff;
+}
+
+

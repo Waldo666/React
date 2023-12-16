@@ -1,0 +1,18 @@
+.ContenedorImagen {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-family: 'Audiowide', sans-serif;
+}
+  .ContenedorImagen img {
+    width: 150px; 
+    height: auto; 
+    transition: transform 3.3s ease-in-out, filter 1.5s ease-in-out;
+    border: 5px solid transparent;
+  }
+  
+  .ContenedorImagen:hover img {
+    transform: scale(2);
+    filter: drop-shadow(0 0 5px rgb(52, 93, 155));
+  }
+  

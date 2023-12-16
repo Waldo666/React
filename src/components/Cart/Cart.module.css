@@ -1,0 +1,39 @@
+.button {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: center;
+}
+
+.contenedorcart {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    align-content: center;
+    height: 100vh; 
+} 
+
+.total {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+    color: aliceblue;
+    font-family: 'Audiowide', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .contenedorcart { 
+        flex-direction: column;
+    }
+    .card {
+        width: 260px;
+    }
+}
